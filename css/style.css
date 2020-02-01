@@ -78,7 +78,10 @@ header {
 
 
 body, header {
-	background-image: url("imgs/sfondo.png");
+	background-image: url(imgs/sfondo.png);
+  background-repeat: repeat; 
+  background-attachment: fixed;
+  background-color: 
 }
 
 img {padding-top: 2em;
