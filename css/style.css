@@ -81,7 +81,7 @@ body, header {
 	background-image: url(imgs/sfondo.png);
   background-repeat: repeat; 
   background-attachment: fixed;
-  background-color: 
+  background-color: hidden;
 }
 
 img {padding-top: 2em;
