@@ -12,7 +12,8 @@
 
 #murakami {
 	font-size: 0.5em;
-    text-align: right;
+        text-align: right;
+	text-style: italic;
 }
 /* The sidepanel menu */
 .sidepanel {
