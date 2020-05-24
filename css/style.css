@@ -1,9 +1,9 @@
 
  body {
-	margin: 0;
-	line-height: 1 em;
-	font-size: 1 em;
-	background-color: #F1F1F1;
+  margin: 0;
+  line-height: 1 em;
+  font-size: 1 em;
+  background-color: #F1F1F1;
 }
 .fb-like {
   margin-left: 45%;
@@ -11,27 +11,28 @@
 }
 
 #murakami {
-	font-size: 0.5em;
-        text-align: right;
-	font-style: italic;
+  font-size: 0.5em;
+  text-align: right;
+  font-style: italic;
 }
 /* The sidepanel menu */
-.sidepanel {
-  height: 180px; /* Specify a height */
+.sidebar {
+  height: 100%; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 2; /* Stay on top */
-  top: 4em;
-  left: 4em;
+  z-index: 0; /*tay on top */
+  top: 0;
+  left: 0;
   background-color: #30616B; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  transition: 1s; /* 0.5 second transition effect to slide in the sidepanel */
 }
 
 /* The sidepanel links */
-.sidepanel a {
+.sidebar a {
   padding: 8px 8px 8px 32px;
+  text: block;
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -42,22 +43,23 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidepanel a:hover {
+.sidebar a:hover {
   color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
-.sidepanel .closebtn {
+.sidebar .closebtn {
   position: absolute;
   color:#ffffff;
   top: 0;
   right: 10px;
   font-size: 30px;
-  
+  margin-left: 50px;
 }
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
+
   font-size: 40px;
   cursor: pointer;
   color: #30616B;
@@ -69,59 +71,109 @@
   background-color: #444;
 }
 
-header {
-	padding: 10%, 5%, 2%, 2%;
-	text-align: center;
- 	font-family: 'Nanum Myeongjo', serif;
- 	font-size: 1em;
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
+header {
+  padding: 10%, 5%, 2%, 2%;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1em;
+}
+
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  opacity: 50%;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: none;
+  color: white;
+  transition: margin-left 0.5s;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: none;
+  padding-left: 20px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  display: none;
+}
+
+
+
 .presentazione {
-	text-align: center;
-	color: black;
-	font-size: 3em;
+  text-align: center;
+  color: black;
+  font-size: 3em;
 }
 
 
 body, header {
-	background-image: url(imgs/sfondo.png);
+  background-image: url(imgs/sfondo.png);
   background-repeat: repeat; 
   background-attachment: fixed;
   background-color: hidden;
 }
 
 img {padding-top: 2em;
-	padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 nav {
-	padding-left: 10em;
-	padding-right: 10em;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 nav ul li {
-	list-style-type: none;
-	display: inline-block;
-	text-align: center;
-	
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  
 }
 
 ul {
-	text-align: center;
-	position: sticky;
-	margin: 0;
-	padding: 0;
-	word-spacing: 10px;
+  text-align: center;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  word-spacing: 10px;
 } 
 
 a { 
-	color: black;
-	text-decoration: none; 
+  color: black;
+  text-decoration: none; 
 
 }
 
 a:hover {
-	color: #30616B;
-	text-decoration: underline;
+  color: #30616B;
+  text-decoration: underline;
    
 }
 
@@ -141,40 +193,48 @@ a:hover {
 
 
 h1, h2, h3, h4 {
-	color: #30616B;
-	font-size: 2em;
-	padding: 0;
-	border: 0;
-	margin: 0;
+  color: #30616B;
+  font-size: 2em;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 h1, h3, h4 {
-	text-align: left;
+  text-align: left;
+}
+
+h5 {
+  text-align: center;
+  font-size: 3em;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 h2, #perche {
-	text-align: right;
+  text-align: right;
 }
 
 main {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
     color: #000000;
     padding: 30px 20% 30px 20%;
 }
 
 
 p {
-	background-color: #f7f7f7;
-	padding: 3%;
-	border: #d4d4d4 solid 0.2px;
+  background-color: #f7f7f7;
+  padding: 3%;
+  border: #d4d4d4 solid 0.2px;
     font-size: 100%;
 }
 
 
 
 #documentazione {
-	text-align: center;
+  text-align: center;
 }
 
 #more {display: none;
@@ -188,8 +248,8 @@ p {
   font-style: italic;}
 
 footer {
-	color: black;
-	text-align: center;
-	padding-top: 5em;
+  color: black;
+  text-align: center;
+  padding-top: 5em;
 }
 
