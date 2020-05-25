@@ -25,7 +25,7 @@
   left: 0;
   background-color: #30616B; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 100px; /* Place content 60px from the top */
   transition: 1s; /* 0.5 second transition effect to slide in the sidepanel */
 }
 
@@ -60,7 +60,7 @@
 /* Style the button that is used to open the sidepanel */
 .openbtn {
 
-  font-size: 40px;
+  font-size: 90px;
   cursor: pointer;
   color: #30616B;
   padding: none;
@@ -100,6 +100,7 @@ header {
   outline: none;
 }
 
+
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
   opacity: 50%;
@@ -110,7 +111,7 @@ header {
 .active {
   background-color: none;
   color: white;
-  transition: margin-left 0.5s;
+  transition: margin-left 0.3s;
 }
 
 
@@ -123,7 +124,7 @@ header {
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
-  display: none;
+
 }
 
 
