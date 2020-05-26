@@ -4,6 +4,8 @@
   line-height: 1 em;
   font-size: 1 em;
   background-color: #F1F1F1;
+  transition: background-color .5s;
+
 }
 .fb-like {
   margin-left: 45%;
@@ -76,6 +78,11 @@
   padding: 16px;
 }
 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
 header {
   padding: 10%, 5%, 2%, 2%;
   text-align: center;
