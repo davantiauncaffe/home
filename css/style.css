@@ -143,6 +143,7 @@ body, header {
   background-color: hidden;
 }
 
+
 img {padding-top: 2em;
   padding-bottom: 1em;
 }
@@ -187,8 +188,7 @@ a:hover {
   margin-right: auto;
   width: auto;
   max-width: 100%;
-  img.resized { width: 200px; height: 200px; }
-
+  height: auto;
 }
 
 
