@@ -1,4 +1,24 @@
+@media only screen and (min-width: 1px) and (max-width: 1024px) {
 
+body {
+	background-color: black;
+}
+
+	.container-fluid {width: 100%}
+
+
+.sidebar  {float: none;
+width: 100%
+margin-right= 0;
+}
+
+
+p {float: none;
+width: 100%
+margin-right= 20;
+clear:both;
+}
+ 
  body {
   margin: 0;
   line-height: 1 em;
