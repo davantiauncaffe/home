@@ -16,6 +16,19 @@
   text-align: right;
   font-style: italic;
 }
+
+
+.main_section {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* The sidepanel menu */
 .sidebar {
   height: 100%; /* Specify a height */
@@ -178,18 +191,6 @@ a:hover {
   color: #30616B;
   text-decoration: underline;
    
-}
-
-
-
-.main_section {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  max-width: 100%;
-  height: auto;
 }
 
 
