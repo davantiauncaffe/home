@@ -21,9 +21,10 @@
 .main_section {
 
   display: block;
-  width: 500px;
+  width: 30px;
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 
 
