@@ -4,7 +4,7 @@ body {
 	background-color: #F1F1F1;
 }
 
-img {
+img, header {
 	width: 200em;
 	max-width: 100%;
 	margin-right: 20em;
