@@ -5,7 +5,9 @@ body {
 }
 
 .main-section {
-	width: 300px;
+	width: 100%;
+	float: none;
+	clear:both;
 }
 
 	.container-fluid {width: 100%}
