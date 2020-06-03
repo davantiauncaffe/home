@@ -4,7 +4,13 @@ body {
 	background-color: #F1F1F1;
 }
 
+.main-section {
+	width: 300px;
+}
+
 	.container-fluid {width: 100%}
+
+
 
 
 .sidebar  {float: none;
