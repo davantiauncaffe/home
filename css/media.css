@@ -1,14 +1,8 @@
+@media only screen and (min-width: 1px) and (max-width: 1024px) {
 
-@media only screen and Umin-width: 576px) and (max-width: 767.98px) { 
-body {
-     background-color: #00000;
-}
 
-{
 
-	
 	.container-fluid {width: 100%}
-}
 
 
 .sidebar  {float: none;
@@ -19,5 +13,5 @@ margin-right= 0;
 
 p {float: none;
 width: 100%
-margin-right= 0;
+margin-right= 20;
 }
