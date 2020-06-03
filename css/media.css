@@ -12,7 +12,9 @@ body {
 	clear:both;
 }
 
-	.container-fluid {width: 100%}
+
+	.container-fluid {width: 100%;
+	}
 
 
 
