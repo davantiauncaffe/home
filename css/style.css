@@ -6,10 +6,12 @@
   font-size: 1 em;
   background-color: #F1F1F1;
 }
+
 .fb-like {
   margin-left: 45%;
   margin-right: 45%;
 }
+
 
 #murakami {
   font-size: 0.5em;
@@ -157,24 +159,6 @@ img {padding-top: 2em;
   padding-bottom: 1em;
 }
 
-nav {
-  padding-left: 10em;
-  padding-right: 10em;
-}
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
-  
-}
-
-ul {
-  text-align: center;
-  position: sticky;
-  margin: 0;
-  padding: 0;
-  word-spacing: 10px;
-} 
 
 a { 
   color: black;
@@ -190,29 +174,6 @@ a:hover {
 
 
 
-h1, h2, h3, h4 {
-  color: #30616B;
-  font-size: 2em;
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
-
-h1, h3, h4 {
-  text-align: left;
-}
-
-h5 {
-  text-align: center;
-  font-size: 3em;
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
-
-h2, #perche {
-  text-align: right;
-}
 
 main {
   font-family: 'Source Sans Pro', sans-serif;
@@ -222,21 +183,6 @@ main {
 }
 
 
-p {
-  background-color: #f7f7f7;
-  padding: 3%;
-  border: #d4d4d4 solid 0.2px;
-    font-size: 100%;
-}
-
-
-
-#documentazione {
-  text-align: center;
-}
-
-#more {display: none;
-}
 
 #myBtn {border: none;
   background-color: inherit;
@@ -249,5 +195,6 @@ footer {
   color: black;
   text-align: center;
   padding-top: 5em;
+  font-size: 0.6em;
 }
 
