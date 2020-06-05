@@ -6,8 +6,10 @@ body {
 
 img {
 	
-	max-width: 200px;
-	margin-right: 20em;
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 	float: none;
 	clear:both;
 	display: block;
