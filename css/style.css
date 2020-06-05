@@ -18,26 +18,34 @@
 
 .column {
   float: left;
-  width: 33.33%;
-  padding: 5px;
-  display: inline-block;
+
+  display: block;
+
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
 
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
   display: table;
-  text-align: center;
+  
 }
 
 
 img {
+  padding-top: 2em;
+  padding-bottom: 1em;
   width: 600px;
   max-width: 100%;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /* The sidepanel menu */
 .sidebar {
@@ -98,6 +106,7 @@ img {
 #main {
   transition: margin-left .5s;
   padding: 16px;
+
 }
 
 header {
