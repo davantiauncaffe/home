@@ -16,5 +16,19 @@ img {
 h1, h2, h3, #perche {
 	width: 20px;
 }
+	
+	/* Clearfix (clear floats) */
+	
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  #customers {
+    width: 100%;
+  }
+}
 }
 
