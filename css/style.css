@@ -12,27 +12,25 @@
   margin-right: 45%;
 }
 
-#customers {
-  
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
   text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 2em;
-  color: #112326;
 }
 
-
-
-
-#customers th {
-  color: #112326;
-  padding-left: 1em;
-  padding-bottom: 0em;
-  width: 50em;
-  height: auto;
-  
-
-}
 
 img {
   width: 600px;
