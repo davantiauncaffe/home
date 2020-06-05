@@ -15,8 +15,11 @@ img {
 	display: block;
 }
 
-h1, h2, h3, #perche {
-	width: 20px;
+.barra {
+	width: 100%;
+	height: auto;
+	background-repeat: repeat;
+	
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
