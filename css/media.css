@@ -5,8 +5,8 @@ body {
 }
 
 img {
-	width: 200em;
-	max-width: 600px;
+	
+	max-width: 200px;
 	margin-right: 20em;
 	float: none;
 	clear:both;
