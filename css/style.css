@@ -12,15 +12,28 @@
   margin-right: 45%;
 }
 
+#customers {
+  
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 2em;
+  color: #112326;
+}
 
-#murakami {
-  font-size: 0.5em;
-  text-align: right;
-  font-style: italic;
+
+
+
+#customers th {
+  color: #112326;
+  padding-bottom: 3em;
+  width: 20em;
+  height: auto;
+
 }
 
 img {
-  width: 460px;
+  width: 600px;
   max-width: 100%;
   text-align: center;
 }
@@ -73,7 +86,7 @@ img {
 
   font-size: 90px;
   cursor: pointer;
-  color: #30616B;
+  color: black;
   padding: none;
   border: none;
 }
@@ -140,13 +153,6 @@ header {
 
 
 
-.presentazione {
-  text-align: center;
-  color: black;
-  font-size: 3em;
-}
-
-
 body, header {
   background-image: url(imgs/sfondo.png);
   background-repeat: repeat; 
@@ -157,6 +163,7 @@ body, header {
 
 img {padding-top: 2em;
   padding-bottom: 1em;
+  max-width: 100%;
 }
 
 
@@ -171,7 +178,6 @@ a:hover {
   text-decoration: underline;
    
 }
-
 
 
 
