@@ -20,14 +20,14 @@ img {
 }
 
 #libri {
-	max-width:90%;
+	max-width:100%;
     display: block;
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
 #computer {
 	display: block;
-	max-width: 50%;
+	max-width: 100%;
 }
  
 
