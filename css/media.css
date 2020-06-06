@@ -19,23 +19,16 @@ img {
 	display: block;
 }
 
-#libri {
-	max-width:100%;
-    display: block;
-    top: 0; left: 0; bottom: 0; right: 0;
+ #computer {
+	width: 60%;
 }
 
-#computer {
-	display: block;
-	max-width: 100%;
-}
- 
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
  .column {
     width: 100%;
-    text-align: center;
+
 
   }
 }
