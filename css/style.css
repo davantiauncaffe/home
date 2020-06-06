@@ -20,7 +20,6 @@
   float: left;
 
   display: block;
-
   padding-top: 2em;
   padding-bottom: 1em;
   margin-left: auto;
@@ -37,9 +36,8 @@
   
 }
 
-.barra {margin-left: auto;
-        margin-right: auto;
-        text-align: center;}
+.barra {margin: 0 auto;
+}
 
 img {
   padding-top: 2em;
@@ -117,6 +115,7 @@ header {
   text-align: center;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 1em;
+  margin: 0 auto;
 }
 
 
@@ -170,6 +169,7 @@ body, header {
   background-repeat: repeat; 
   background-attachment: fixed;
   background-color: hidden;
+  margin: 0 auto;
 }
 
 
@@ -197,7 +197,8 @@ main {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
     color: #000000;
-    padding: 30px 20% 30px 20%;
+    margin: 0 auto;
+
 }
 
 
