@@ -1,43 +1,35 @@
-
- 
  body {
   margin: 0;
   line-height: 1 em;
   font-size: 1 em;
   background-color: #F1F1F1;
 }
-
 .fb-like {
   margin-left: 45%;
   margin-right: 45%;
 }
-
 {
   box-sizing: border-box;
 }
-
 .column {
   float: left;
-
   display: block;
   padding-top: 2em;
   padding-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
-
 }
-
-
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
   display: table;
-  
+
 }
 
-.barra {margin: 0 auto;
-}
+.barra {margin-left: auto;
+        margin-right: auto;
+        text-align: center;}
 
 img {
   padding-top: 2em;
@@ -47,7 +39,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 /* The sidepanel menu */
 .sidebar {
   height: 100%; /* Specify a height */
@@ -61,7 +52,6 @@ img {
   padding-top: 100px; /* Place content 60px from the top */
   transition: 1s; /* 0.5 second transition effect to slide in the sidepanel */
 }
-
 /* The sidepanel links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -74,12 +64,10 @@ img {
   display: block;
   transition: 0.3s;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
 }
-
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
@@ -89,36 +77,27 @@ img {
   font-size: 30px;
   margin-left: 50px;
 }
-
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-
   font-size: 90px;
   cursor: pointer;
   color: black;
   padding: none;
   border: none;
 }
-
 .openbtn:hover {
   background-color: #444;
 }
-
 #main {
   transition: margin-left .5s;
   padding: 16px;
-
 }
-
 header {
   padding: 10%, 5%, 2%, 2%;
   text-align: center;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 1em;
-  margin: 0 auto;
 }
-
-
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
   padding: 8px 8px 8px 32px;
@@ -134,86 +113,59 @@ header {
   cursor: pointer;
   outline: none;
 }
-
-
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
   opacity: 50%;
 }
-
-
 /* Add an active class to the active dropdown button */
 .active {
   background-color: none;
   color: white;
   transition: margin-left 0.3s;
 }
-
-
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
   background-color: none;
   padding-left: 20px;
 }
-
 /* Optional: Style the caret down icon */
 .fa-caret-down {
-
 }
-
-
-
 body, header {
   background-image: url(imgs/sfondo.png);
   background-repeat: repeat; 
   background-attachment: fixed;
   background-color: hidden;
-  margin: 0 auto;
 }
-
-
 img {padding-top: 2em;
   padding-bottom: 1em;
   max-width: 100%;
 }
-
-
 a { 
   color: black;
   text-decoration: none; 
-
 }
-
 a:hover {
   color: #30616B;
   text-decoration: underline;
    
 }
-
-
-
 main {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
     color: #000000;
-    margin: 0 auto;
-
+    padding: 30px 20% 30px 20%;
 }
-
-
-
 #myBtn {border: none;
   background-color: inherit;
   font-size: 1em;
   cursor: pointer;
   display: inline-block;
   font-style: italic;}
-
 footer {
   color: black;
   text-align: center;
   padding-top: 5em;
   font-size: 0.6em;
 }
-
