@@ -5,7 +5,8 @@ body {
 }
 
 .row {margin-left: auto;
-	  margin-right: auto;}
+	  margin-right: auto;
+	}
 
 img {
 	
@@ -18,18 +19,22 @@ img {
 	display: block;
 }
 
-
-
-
 #libri {
-
-	padding-left: 0;
- 	text-align: center;
+	max-width:100%;
+    display: block;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
+
+#computer {
+	display: block;
+}
+ 
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
  .column {
     width: 100%;
     text-align: center;
+
   }
 }
