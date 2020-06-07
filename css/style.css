@@ -231,16 +231,16 @@ display: block;
    color: #fff;
 }
 #slides .slide_1 {
-   background: #00171F;
+   background: none;
 }
 #slides .slide_2 {
-   background: #003459;
+   background: none;
 }
 #slides .slide_3 {
-   background: #007EA7;
+   background: none;
 }
 #slides .slide_4 {
-   background: #00A8E8;
+   background: none;
 }
 #controls {
    margin: -180px 0 0 0;
