@@ -181,6 +181,7 @@ display: block;
 
 }
 
+
 #slider {
    margin: 0 auto;
    width: 800px;
@@ -195,7 +196,7 @@ display: block;
    text-decoration: none;
 }
 #slides {
-   background: #fff;
+ 
    position: relative;
    z-index: 1;
 }
@@ -228,7 +229,7 @@ display: block;
    justify-content: center;
    align-items: center;
    height: 100%;
-   color: #fff;
+   color: black;
 }
 #slides .slide_1 {
    background: none;
