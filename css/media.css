@@ -43,6 +43,10 @@ img {
       max-width: calc(100% - 140px);
       margin: 0 auto;
    }
+
+    .slide-content {
+    	width: 100%;
+    }
 }
 
   }
