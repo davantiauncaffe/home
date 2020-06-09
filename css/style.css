@@ -8,6 +8,11 @@
   margin-left: 45%;
   margin-right: 45%;
 }
+
+.fb-comments {
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
 {
   box-sizing: border-box;
 }
