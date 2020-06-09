@@ -104,6 +104,8 @@ img #logo {
   transition: margin-left .5s;
   padding: 16px;
 }
+
+
 header {
   padding: 10%, 5%, 2%, 2%;
   text-align: center;
@@ -151,16 +153,17 @@ body, header {
   background-color: hidden;
 }
 
-}
 a { 
-  color: black;
+  color: #122427;
   text-decoration: none; 
 }
 a:hover {
-  color: #30616B;
+  color: #122427;
   text-decoration: underline;
    
 }
+
+
 main {
 
   font-family: 'Source Sans Pro', sans-serif;
@@ -181,16 +184,24 @@ h1, h2, h3, h4 {
   color: #112326;
 }
 
-#titolo1 {
-  width: 400px;
-  max-width: 100%;
+
+#titolo1, #titolo2, #titolo3 {
+  width: 60%;
   padding-top: 20px;
-  padding-right: auto;
-  padding-left: auto;
-  text-align: center;
-  display: block;
+  padding-bottom: 10px;
+    display: block;
 }
 
+#titolo2 {
+  width: 30%;
+}
+
+#titolo3 {
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+}
 #myBtn {border: none;
   background-color: inherit;
   font-size: 1em;
@@ -215,7 +226,7 @@ footer a {
   color: black;
 }
 
-.next { 
+.previous, .next { 
   color: black;
   font-size: 2em;
    }
