@@ -42,15 +42,16 @@ img {
    #slides {
       max-width: calc(100% - 140px);
       margin: 0 auto;
-   }
 
-    .slide-content {
-    	width: 100%;
-    }
-}
+   }
+   
+   #slide-content {
+   	  max-width: 100%;
+        width: 0;
+
+   }
 
 #controls label {
    width: 20px;
-
-  }
+}
 }
