@@ -200,6 +200,15 @@ footer {
   font-size: 0.6em;
 }
 
+footer a {
+  color: black;
+}
+
+.next { 
+  color: black;
+  font-size: 2em;
+   }
+
 #articolipiùrecenti {
 margin-left: auto;
 margin-right: auto;
