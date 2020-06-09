@@ -32,7 +32,7 @@
  transition: 0.5s;
 }
 
-img {
+img #logo {
   padding-top: 2em;
   padding-bottom: 1em;
   width: 600px;
@@ -139,9 +139,7 @@ body, header {
   background-attachment: fixed;
   background-color: hidden;
 }
-img {padding-top: 2em;
-  padding-bottom: 1em;
-  max-width: 100%;
+
 }
 a { 
   color: black;
@@ -230,6 +228,7 @@ display: block;
    align-items: center;
    height: 100%;
    color: black;
+
 }
 #slides .slide_1 {
    background: none;
