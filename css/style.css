@@ -151,11 +151,35 @@ a:hover {
    
 }
 main {
+
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
     color: #000000;
     padding: 30px 20% 30px 20%;
 }
+
+h1,{
+ padding-top: 70px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #112326;
+}
+
+#titolo1 {
+  width: 400px;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-right: auto;
+  padding-left: auto;
+  text-align: center;
+  display: block;
+}
+
 #myBtn {border: none;
   background-color: inherit;
   font-size: 1em;
@@ -163,7 +187,11 @@ main {
   display: inline-block;
   font-style: italic;}
 
-
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  padding-top: 16px;
+}
 
 footer {
   color: black;
@@ -179,6 +207,13 @@ display: block;
 
 }
 
+#libripagina {
+  padding-top: 40px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
 
 #slider {
    margin: 0 auto;
