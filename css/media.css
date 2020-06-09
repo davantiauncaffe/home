@@ -61,4 +61,8 @@ p {
 #controls label {
    width: 20px;
 }
+	
+#titolo1, #titolo2, #titolo3 {
+   width: 100%;
+}
 }
