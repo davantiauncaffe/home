@@ -23,6 +23,13 @@ img {
 	width: 60%;
 }
 
+main {
+   padding-top: 30px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+p {
+   font-size: 18px;
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
