@@ -243,6 +243,12 @@ display: block;
 #slides .slide_4 {
    background: none;
 }
+
+#slides:hover {
+ opacity: 0.5;
+ transition: 0.5s;
+}
+
 #controls {
    margin: -180px 0 0 0;
    width: 100%;
@@ -266,6 +272,7 @@ display: block;
 #slide4:checked ~ #controls label:nth-child(1) {
    background: url(https://image.flaticon.com/icons/svg/860/860828.svg) no-repeat;
    float:right;
+   
    display: block;
 }
 #slide1:checked ~ #controls label:nth-last-child(1),
@@ -274,6 +281,7 @@ display: block;
 #slide4:checked ~ #controls label:nth-last-child(2){
     background: url(https://image.flaticon.com/icons/svg/860/860790.svg) no-repeat;
     float: left;
+  
     display: block;
 }
 #bullets {
