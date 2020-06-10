@@ -18,6 +18,10 @@ img {
 	clear:both;
 	display: block;
 }
+	
+ul.nav_links {
+   display: none;
+}
 
  #computer {
 	width: 60%;
