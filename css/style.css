@@ -175,6 +175,24 @@ h4 {
   text-decoration: underline;
 }
 
+h5 {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 40px;
+  padding-left: auto;
+  padding-right: auto;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+h6 {
+  font-size: 14px;
+  color: grey;
+  text-align: left;
+  padding-top: 0;
+  text-decoration: underline;
+}
+
 p {
   margin-left: 40px;
   margin-right: 40px;
@@ -246,6 +264,26 @@ p.motoreciakazione {
   transition: 0.5s;
 }
 
+.image#thetrumanshow {
+  content: url(../imgs/trumanshow.jpg);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.image#thetrumanshow2 {
+  content: url(../imgs/trumanshow2.jpg);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
 .primo {
   border:double;
 }
@@ -257,7 +295,7 @@ p.motoreciakazione {
 
 .previous {
   text-align: left;
-  
+
 }
 
 .next {
