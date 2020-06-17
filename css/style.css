@@ -166,6 +166,11 @@ h3 {
   
 }
 
+h3:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
 h4 {
   font-size: 14px;
   color: grey;
