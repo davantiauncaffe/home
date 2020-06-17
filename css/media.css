@@ -49,6 +49,10 @@ p {
 
 }
 
+.image#thetrumanshow, .image#thetrumanshow2 {
+  width: 350px;
+}
+
 .fb-comments {
   width: 100%;
 }
