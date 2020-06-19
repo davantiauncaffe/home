@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-  width: 370px;
+  width: 100%;
 }
 
 main {
@@ -26,10 +26,6 @@ p {
    margin-right: 30px;
    display: block;
    }
-
-#titolo1, #titolo2, #titolo3 {
-   width: 100%;
-}
 
 .separe {
   content: url(../imgs/separetelefono.png);
@@ -56,9 +52,19 @@ h2 {
   padding-top: 0px;
 }
 
+
 .image#murakami {
-  margin: 0;
   padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-right: 0;
+  padding-top: 0;
+}
+.image#seguimi {
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 
 .image#qualcosa, .image#cineception, .image#racconti2 {
@@ -66,7 +72,7 @@ h2 {
 }
 
 .image#thetrumanshow, .image#thetrumanshow2 {
-  width: 350px;
+  width: 100%
 }
 
 .fb-comments {
