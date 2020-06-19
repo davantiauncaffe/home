@@ -217,6 +217,7 @@ p.motoreciakazione {
   margin-top: 40px;
 }
 
+
 .image#prova {
   content: url(../imgs/io.png);
   width: 300px;
@@ -231,7 +232,7 @@ p.motoreciakazione {
 {
   content: url(../imgs/murakami.png);
   width: 375px;
-  margin-top: 55px;
+  margin-top: 40px;
   margin-bottom: 20px;
 
 }
@@ -246,39 +247,30 @@ p.motoreciakazione {
 
 .image#racconti2 {
   content: url(../imgs/racconti2.png);
-  width: 210px;
-  margin-top: 20px;
+  width: 550px;
+  margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 
-}
-
-.image#racconti2:hover {
-  opacity: 0.5;
-  transition: 0.5s;
 }
 
 .image#cineception {
   content: url(../imgs/cineception.png);
-  width: 280px;
-  margin-top: 20px;
+  width: 450px;
+  margin-top: 30px;
   margin-bottom: 20px;
-}
-
-.image#cineception:hover {
-  opacity: 0.5;
-  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image#qualcosa {
   content: url(../imgs/qualcosa.png);
-  width: 220px;
-  margin-top: 20px;
+  width: 550px;
+  margin-top: 30px;
   margin-bottom: 20px;
-}
-
-.image#qualcosa:hover {
-  opacity: 0.5;
-  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image#thetrumanshow {
