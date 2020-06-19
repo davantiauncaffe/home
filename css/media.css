@@ -36,6 +36,9 @@ p {
   width: 100%;
   padding-bottom: 5px;
   padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .column {
@@ -44,8 +47,7 @@ p {
 
 .image#prova {
   width: 250px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   padding: 0;
 
 }
@@ -58,6 +60,11 @@ h2 {
   margin: 0;
   padding-bottom: 20px;
 }
+
+.image#qualcosa, .image#cineception, .image#racconti2 {
+  width: 100%;
+}
+
 .image#thetrumanshow, .image#thetrumanshow2 {
   width: 350px;
 }
