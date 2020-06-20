@@ -191,7 +191,9 @@ p.motoreciakazione {
   margin-top: 40px;
 }
 
-
+.fb {
+ width:100%;
+}
 .image#prova {
   content: url(../imgs/io.png);
   width: 80%;
