@@ -191,9 +191,7 @@ p.motoreciakazione {
   margin-top: 40px;
 }
 
-.fb {
- width:100%;
-}
+
 .image#prova {
   content: url(../imgs/io.png);
   width: 80%;
@@ -253,20 +251,50 @@ p.motoreciakazione {
 
 .image#thetrumanshow {
   content: url(../imgs/trumanshow.jpg);
-  width: 60%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: 1px solid black;
 }
 
 .image#thetrumanshow2 {
   content: url(../imgs/trumanshow2.jpg);
-  width: 60%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+
+.image#netflix {
+  content: url(../imgs/netflix.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.image#netflix2 {
+  content: url(../imgs/netflix2.jpg);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.image#citazione {
+  content: url(../imgs/citazione.jpeg);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   margin-bottom: 20px;
   border: 1px solid black;
 }
@@ -292,6 +320,10 @@ p.motoreciakazione {
 
 .next {
   text-align: right;
+}
+
+.fb {
+  width: 100%;
 }
 
 a:hover {
