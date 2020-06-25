@@ -71,9 +71,10 @@ display: block;
   width: 100%;
 }
 
-.image#thetrumanshow, .image#thetrumanshow2 {
-  width: 100%
+.image#netflix, .image#thetrumanshow, .image#thetrumanshow2, .image#netflix2, .image#citazione {
+  width: 60%;
 }
+
 
 .fb-comments {
   width: 100%;
