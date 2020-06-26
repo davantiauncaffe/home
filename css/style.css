@@ -240,13 +240,33 @@ p.motoreciakazione {
   margin-right: auto;
 }
 
-.image#qualcosa {
+.image#percheperche {
   content: url(../imgs/qualcosa.png);
   width: 70%;
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.image#covid {
+  content: url(../imgs/covid.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.image#vaccino {
+  content: url(../imgs/vaccino.jfif);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid black;
 }
 
 .image#thetrumanshow {
