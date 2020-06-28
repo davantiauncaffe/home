@@ -299,6 +299,26 @@ p.motoreciakazione {
   border: 1px solid black;
 }
 
+.image#cancelled {
+  content: url(../imgs/cancelled.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.image#friends {
+  content: url(../imgs/friends.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+
+}
 .image#netflix2 {
   content: url(../imgs/netflix2.jpg);
   width: 50%;
@@ -307,6 +327,17 @@ p.motoreciakazione {
   margin-top: 30px;
   margin-bottom: 20px;
   border: 1px solid black;
+}
+
+.image#cleveland {
+  content: url(../imgs/cleveland.png);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
 }
 
 .image#citazione {
