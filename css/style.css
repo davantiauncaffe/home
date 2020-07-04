@@ -338,10 +338,19 @@ p.motoreciakazione {
   margin-bottom: 20px;
   border: 1px solid black;
 }
+
+.image#netflix3 {
+  content: url(../imgs/netflix3.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
 }
 
-.image#citazione {
-  content: url(../imgs/citazione.jpeg);
+.image#boris {
+  content: url(../imgs/boris.jpeg);
   width: 50%;
   margin-left: auto;
   margin-right: auto;
