@@ -359,6 +359,46 @@ p.motoreciakazione {
   border: 1px solid black;
 }
 
+.image#sogno {
+  content: url(../imgs/sogno.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.image#mani {
+  content: url(../imgs/mani.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.image#nuvola {
+  content: url(../imgs/nuvola.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.image#pensare {
+  content: url(../imgs/pensare.jpg);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
 .primo {
   border:double;
   margin-left: 4%;
